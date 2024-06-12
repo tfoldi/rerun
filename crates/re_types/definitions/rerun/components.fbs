@@ -7,7 +7,6 @@ include "./components/color.fbs";
 include "./components/depth_meter.fbs";
 include "./components/disconnected_space.fbs";
 include "./components/draw_order.fbs";
-include "./components/gps_coordinate.fbs";
 include "./components/half_sizes2d.fbs";
 include "./components/half_sizes3d.fbs";
 include "./components/image_plane_distance.fbs";
