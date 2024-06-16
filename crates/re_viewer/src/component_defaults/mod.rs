@@ -64,6 +64,10 @@ pub fn list_default_components(
             LockRangeDuringZoom::default().to_arrow()?,
         ),
         (
+            <MapProvider as Loggable>::name(),
+            MapProvider::default().to_arrow()?,
+        ),
+        (
             <PanelState as Loggable>::name(),
             PanelState::default().to_arrow()?,
         ),
